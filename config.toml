@@ -1,3 +1,40 @@
-baseURL = "http://example.org/"
-languageCode = "en-us"
-title = "My New Hugo Site"
+baseURL = "https://manabisystem.github.io/"
+languageCode = "ja-jp"
+title = "まなびシステム"
+theme = "hugo-casper3"
+
+
+name = "casper3"
+license = "MIT"
+licenselink = "https://github.com/jonathanjanssens/hugo-casper3/blob/master/LICENSE"
+description = "The default Casper version 3 theme from Ghost CMS ported over to Hugo"
+tags = ["blog", "dark", "light"]
+features = ["darkmode"]
+min_version = "0.54.0"
+
+[author]
+  name = "MANABISYSTEM"
+  homepage = "https://manabisystem.github.io"
+  repo = ""
+
+[menu]
+    [[menu.main]]
+        identifier = ""
+        name = "ホーム"
+        url = "/"
+        weight = 1
+	[[menu.main]]
+        identifier = "about"
+        name = "まなびシステムについて"
+        url = "/about"
+        weight = 2
+    [[menu.main]]
+        identifier = "archives"
+        name = "記事一覧"
+        url = "/archives"
+        weight = 3
+    [[menu.main]]
+        identifier = "contact"
+        name = "お問い合わせ"
+        url = "/contact"
+        weight = 4
