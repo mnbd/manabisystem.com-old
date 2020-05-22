@@ -1,5 +1,5 @@
 baseURL = "https://manabisystem.github.io/"
-languageCode = "ja-jp"
+languageCode = "ja"
 title = "まなびシステム"
 theme = "hugo-casper3"
 
@@ -12,6 +12,7 @@ tags = ["blog", "dark", "light"]
 features = ["darkmode"]
 min_version = "0.54.0"
 hasCJKLanguage = true
+googleAnalytics = "UA-165312579-1"
 
 [author]
   name = "MANABISYSTEM"
