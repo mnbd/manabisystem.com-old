@@ -7,10 +7,11 @@ theme = "hugo-casper3"
 name = "casper3"
 license = "MIT"
 licenselink = "https://github.com/jonathanjanssens/hugo-casper3/blob/master/LICENSE"
-description = "The default Casper version 3 theme from Ghost CMS ported over to Hugo"
+description = "キッカケを応援するメディア"
 tags = ["blog", "dark", "light"]
 features = ["darkmode"]
 min_version = "0.54.0"
+hasCJKLanguage = true
 
 [author]
   name = "MANABISYSTEM"
