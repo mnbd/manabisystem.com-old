@@ -3,7 +3,6 @@ languageCode = "ja"
 title = "まなびシステム"
 theme = "hugo-casper3"
 
-
 name = "casper3"
 license = "MIT"
 licenselink = "https://github.com/jonathanjanssens/hugo-casper3/blob/master/LICENSE"
@@ -40,3 +39,8 @@ googleAnalytics = "UA-165312579-1"
         name = "お問い合わせ"
         url = "/contact"
         weight = 4
+		
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
