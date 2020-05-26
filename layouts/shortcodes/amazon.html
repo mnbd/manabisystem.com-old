@@ -1,0 +1,27 @@
+<div class="amazon-affiliate">
+  <div class="object-link-box">
+    <div class="object-link-image">
+      <a href="https://www.amazon.co.jp/dp/{{ .Get `asin` }}?tag=mnbd-22" target=”_blank”>
+        <img src="https://images-na.ssl-images-amazon.com/images/P/{{ .Get `asin` }}.09.MZZZZZZZ" alt="">
+      </a>
+    </div>
+    <div class="object-link-info">
+      <div class="object-link-name">
+        <a href="https://www.amazon.co.jp/dp/{{ .Get `asin` }}?tag=mnbd-22" target=”_blank”>{{ .Get `kw` }}</a>
+      </div>
+      <div class="object-link-detail">
+        {{ .Get `desc` }}
+      </div>
+      <div class="shop-link">
+        <div class="amazon-shop-link">
+          <a href="https://www.amazon.co.jp/s?k={{ .Get `asin` }}&tag=mnbd-22" target="_blank" rel="nofollow" class="btn-amazon">Amazon</a>
+        </div>
+        <div class="rakuten-shop-link">
+          <a href="http://hb.afl.rakuten.co.jp/hgc/0407ad5e.008d876a.0407ad5f.569ceedc/?pc=http://search.rakuten.co.jp/search/mall?sitem={{ .Get `kw` }}&m=http://m.rakuten.co.jp/" target="_blank" rel="nofollow" class="btn-rakuten">楽天市場</a>
+        </div>
+      </div>
+    </div>
+    <div class="object-link-footer">
+    </div>
+  </div>
+</div>
