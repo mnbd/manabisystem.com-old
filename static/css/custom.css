@@ -1,3 +1,23 @@
+.site-nav-main {
+	background-color: #2D343C;
+}
+
+.site-header-background {
+	background-color: #2D343C;
+}
+
+.site-footer {
+	background-color: #2D343C;
+}
+
+.page-template .site-main .post-template .site-main .post-full-content {
+	background-color: #FEFDED;
+}
+
 .post-content p {
 	font-family: 'BIZ UDPGothic', sans-serif;
+}
+
+.read-next {
+	background-color: #2D343C;
 }
